@@ -7,7 +7,7 @@
 
 import Foundation
 
-class TextNode: Node {
+public class TextNode: Node {
     public var bold: Bool = false
     public var italic: Bool = false
     public var underline: Bool = false
